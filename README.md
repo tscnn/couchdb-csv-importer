@@ -1,7 +1,8 @@
 # couch-csv-import.py
 A simple Python script for importing CSV data into a CouchDB database. It
 supports Unix pipelining and can be used to import records from relational
-databases.
+databases. __The first line of the CSV data must correspond to the key
+names of the CouchDB documents to be created.__
 
 ## Requirements
 In addition to Python, the following Python packages are required for the
