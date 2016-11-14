@@ -45,5 +45,5 @@ $ cat contacts.csv | python couch-csv-import.py http://127.0.0.1:5984/ contacts 
 
 Import MySQL tables into CouchDB.
 ```
-$ echo "SELECT * FROM contacts" | mysql -uuser -ppass db | python couch-csv-import.py -d "\t" http://127.0.0.1:5984 contacs -
+$ echo "SELECT * FROM contacts" | mysql -uuser -ppass db | python couch-csv-import.py -d "\t" http://127.0.0.1:5984 contacts -
 ```
